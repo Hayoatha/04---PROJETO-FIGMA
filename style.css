@@ -116,7 +116,8 @@ ul{list-style:none;}
   border-radius:8px;
 }
 .ph-foto-tall{aspect-ratio:4/5;}
-.ph-foto img, .sobre-foto img, .hero-image img{width:100%; height:100%; object-fit:cover; display:block; border-radius:8px;}
+.ph-foto img, .sobre-foto img, .hero-image img,
+.ph-foto video, .sobre-foto video, .hero-image video{width:100%; height:100%; object-fit:cover; display:block; border-radius:8px;}
 
 /* ---------- Sobre ---------- */
 .sobre{padding:100px 0; background:var(--cream-alt);}
