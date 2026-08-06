@@ -105,8 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Formulário de reserva -> WhatsApp ---
-  // TROCAR AQUI: troque o número no wa.me abaixo pelo WhatsApp real do studio
-  const WHATSAPP_NUMERO = '55SEUNUMEROAQUI';
+  const WHATSAPP_NUMERO = '5592985951910';
   const bookingForm = document.getElementById('bookingForm');
 
   if (bookingForm) {
