@@ -50,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- Fotos da galeria ---
-  // TROCAR AQUI: adicione novas fotos aqui quando colocar mais arquivos em fotos/modelos
   const GALERIA_FOTOS = [
     { src: 'fotos/modelos/Hyper_Cinderela_1.jpeg', legenda: 'Hyper Cinderela' },
     { src: 'fotos/modelos/Hyper_Luxo_1.jpeg', legenda: 'Hyper Luxo' },
