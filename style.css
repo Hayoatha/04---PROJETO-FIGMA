@@ -136,6 +136,13 @@ ul{list-style:none;}
   background:var(--white); border:1px solid var(--line); border-radius:8px; padding:28px;
   display:flex; flex-direction:column; gap:12px;
 }
+.servico-card--sobrancelha{
+  border-color: #8B6F47;
+  background: #FBF7F2;
+}
+.servico-card--sobrancelha .servico-index{
+  color: #31230f;
+}
 .servico-head{display:flex; justify-content:space-between; align-items:center;}
 .servico-index{font-family:var(--serif); font-style:italic; font-size:1.4rem; color:var(--terracotta);}
 .servico-preco{font-weight:600; font-size:0.95rem;}
