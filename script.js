@@ -168,13 +168,11 @@ document.addEventListener('DOMContentLoaded', () => {
     bookingForm.addEventListener('submit', (e) => {
       e.preventDefault();
       const nome = bookingForm.nome.value.trim();
-      const whatsapp = bookingForm.whatsapp.value.trim();
       const tecnica = bookingForm.tecnica.value;
 
       const mensagem =
         `Olá! Gostaria de agendar um horário no Cílios de Cinderela.%0A` +
         `Nome: ${encodeURIComponent(nome)}%0A` +
-        `Meu WhatsApp: ${encodeURIComponent(whatsapp)}%0A` +
         `Técnica desejada: ${encodeURIComponent(tecnica)}`;
 
       window.open(`https://wa.me/${WHATSAPP_NUMERO}?text=${mensagem}`, '_blank');
