@@ -258,6 +258,37 @@ ul{list-style:none;}
 .whatsapp-float svg{width:28px; height:28px;}
 .whatsapp-float:hover{transform:scale(1.08);}
 
+/* ---------- Instagram Float ---------- */
+.btn-instagram{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:12px 22px;
+  border-radius:8px;
+  background:linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  color:#fff;
+  font-weight:600;
+  font-size:0.92rem;
+  text-decoration:none;
+  transition:transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-instagram svg{
+  width:20px;
+  height:20px;
+  flex-shrink:0;
+}
+.btn-instagram:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 20px rgba(238,42,123,0.35);
+}
+.galeria-instagram{
+  text-align: center;
+  margin-top: 40px;
+}
+.galeria-instagram .section-note{
+  margin-bottom: 16px;
+}
+
 /* ---------- Lightbox ---------- */
 .lightbox{
   position:fixed; inset:0; background:rgba(20,16,14,0.94); z-index:50;
