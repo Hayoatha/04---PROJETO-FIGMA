@@ -219,6 +219,7 @@ ul{list-style:none;}
 .contato-row span{font-size:0.88rem; color:var(--muted);}
 .contato-mapa-link{font-size:0.88rem; color:var(--muted); text-decoration:underline; text-underline-offset:2px; text-decoration-color:var(--line);}
 .contato-mapa-link:hover{color:var(--terracotta); text-decoration-color:var(--terracotta);}
+.contato-mapa-dica{font-size:0.78rem; font-weight:400; color:var(--terracotta);}
 .contato-direct{display:flex; align-items:center; gap:16px; flex-wrap:wrap;}
 .contato-phone{font-size:0.88rem; color:var(--muted);}
 
