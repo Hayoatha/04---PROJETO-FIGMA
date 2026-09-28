@@ -217,6 +217,8 @@ ul{list-style:none;}
 .contato-icon{font-size:1.2rem;}
 .contato-row strong{display:block; font-size:0.9rem; margin-bottom:2px;}
 .contato-row span{font-size:0.88rem; color:var(--muted);}
+.contato-mapa-link{font-size:0.88rem; color:var(--muted); text-decoration:underline; text-underline-offset:2px; text-decoration-color:var(--line);}
+.contato-mapa-link:hover{color:var(--terracotta); text-decoration-color:var(--terracotta);}
 .contato-direct{display:flex; align-items:center; gap:16px; flex-wrap:wrap;}
 .contato-phone{font-size:0.88rem; color:var(--muted);}
 
